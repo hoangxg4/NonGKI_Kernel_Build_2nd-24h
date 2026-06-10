@@ -20,7 +20,7 @@ on:
         default: true
 
   schedule:
-    - cron: '0 3 * * 3'
+    - cron: '0 0 * * *'
 
 jobs:
   build-kernel:
